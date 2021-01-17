@@ -1,0 +1,49 @@
+.App {
+  min-height: 100vh;
+  background: #e9d362; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #333333,
+    #e9d362
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #333333,
+    #e9d362
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+.search-button {
+  background: #5f2c82; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #49a09d,
+    #5f2c82
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #49a09d,
+    #5f2c82
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+.music {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
